@@ -1,81 +1,121 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FARJ_8 | عالم الخيال</title>
+<meta name="theme-color" content="#130622">
+<title>FARJ_8 | My Universe</title>
 <style>
 *{box-sizing:border-box}
-body{margin:0;background:radial-gradient(ellipse at top,#5720a8,#160b30 50%,#080610);color:white;font-family:Arial,sans-serif;min-height:100vh}
-header{text-align:center;padding:55px 15px 30px}
-h1{font-size:clamp(48px,12vw,90px);margin:20px 0;color:#fff;text-shadow:0 0 15px #c084fc,0 0 45px #9333ea}
-header p{color:#dfc7ff;line-height:1.9}
-nav{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
-a,button{color:white;text-decoration:none;background:#ffffff10;border:1px solid #b67aff70;border-radius:12px;padding:12px 18px;cursor:pointer}
-a:hover,button:hover{background:#9333ea}
-main{max-width:900px;margin:auto;padding:15px}
-section{margin:25px 0;padding:24px;background:#ffffff09;border:1px solid #b67aff45;border-radius:22px;box-shadow:0 0 30px #781bba12}
-h2{color:#d8b4fe}
-p{line-height:1.8;color:#e6d9ff}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
-.item{padding:20px;background:#6d28d922;border:1px solid #c084fc50;border-radius:15px;overflow-wrap:anywhere}
-input{width:100%;margin:7px 0 12px;padding:12px;border-radius:10px;background:#10091f;color:white;border:1px solid #a855f7}
-footer{text-align:center;padding:30px;color:#bda4dd}
+body{margin:0;background:radial-gradient(ellipse at top,#6322a4,#130622 55%,#080411);color:white;font-family:Arial,sans-serif;min-height:100vh}
+.wrap{width:92%;max-width:950px;margin:auto}
+header{padding:22px 0;border-bottom:1px solid #a855f755;display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px}
+.logo{font-size:25px;font-weight:bold;color:#e8c5ff}
+nav{display:flex;gap:15px;flex-wrap:wrap}
+a{color:#e8c5ff;text-decoration:none}
+.hero{text-align:center;padding:75px 10px 45px}
+.hero h1{font-size:clamp(55px,12vw,100px);margin:18px 0;text-shadow:0 0 35px #b35cff}
+.hero p{color:#d7c5ee;line-height:2}
+.btn{display:inline-block;padding:13px 20px;background:linear-gradient(135deg,#a855f7,#6d28d9);border:0;border-radius:12px;color:white;cursor:pointer;font-size:15px}
+section{padding:25px 0 35px}
+h2{color:#e8c5ff}
+.card{background:#ffffff0d;border:1px solid #b86bff55;border-radius:18px;padding:20px;margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+input,select{width:100%;padding:13px;margin:8px 0 15px;border-radius:10px;border:1px solid #a855f7;background:#10071e;color:white}
+label{color:#e8c5ff;font-size:14px}
+.muted{color:#cbb8e2;line-height:1.8}
+.social a{display:block;padding:15px;border:1px solid #a855f766;border-radius:12px;margin:10px 0;background:#ffffff0a}
+footer{text-align:center;padding:30px;color:#bba4d4;border-top:1px solid #a855f744}
 </style>
 </head>
 <body>
+<div class="wrap">
 <header>
-<div>✦ WELCOME TO MY UNIVERSE ✦</div>
-<h1>FARJ_8</h1>
-<p>عالمي الخاص، حيث يلتقي الخيال بالفخامة 💜<br>صور • فيديوهات • روابط • ذكرياتي</p>
+<div class="logo">✦ FARJ_8</div>
 <nav>
-<a href="#about">عن عالمي</a>
-<a href="#gallery">المعرض</a>
+<a href="#home">الرئيسية</a>
 <a href="#links">روابطي</a>
+<a href="#downloader">تنزيل الفيديو</a>
+<a href="#about">حولي</a>
 </nav>
 </header>
+
 <main>
+<section class="hero" id="home">
+<p>✦ MY FANTASY UNIVERSE ✦</p>
+<h1>FARJ_8</h1>
+<p>عالمي الخاص… حيث يلتقي الخيال بالواقع</p>
+<a class="btn" href="#links">اكتشف عالمي ↓</a>
+</section>
+
+<section id="links">
+<h2>✧ حساباتي الرسمية</h2>
+<div class="grid social">
+<div class="card">
+<h3>👻 Snapchat</h3>
+<a href="https://www.snapchat.com/add/f_trwy2018?share_id=yHyJ5a4HThU&locale=ar-EG" target="_blank" rel="noopener">افتح حساب سناب شات ↗</a>
+</div>
+<div class="card">
+<h3>♪ TikTok</h3>
+<a href="https://www.tiktok.com/@f8m__11" target="_blank" rel="noopener">افتح حساب تيك توك ↗</a>
+</div>
+<div class="card">
+<h3>◎ Instagram</h3>
+<a href="https://www.instagram.com/f8m__11.tk" target="_blank" rel="noopener">افتح حساب إنستغرام ↗</a>
+</div>
+</div>
+</section>
+
+<section id="downloader">
+<h2>✦ FARJ Downloader</h2>
+<div class="card">
+<p class="muted">الصق رابط فيديو تملكه أو لديك إذن بتنزيله. سنحدد المنصة ونفتح الفيديو حتى تستخدم خيارات التنزيل المتاحة.</p>
+<form id="downloadForm">
+<label for="videoUrl">رابط الفيديو</label>
+<input id="videoUrl" type="url" required placeholder="https://...">
+<button class="btn" type="submit">تحليل الرابط</button>
+</form>
+<p id="result" class="muted" aria-live="polite">يدعم TikTok وInstagram وSnapchat.</p>
+</div>
+</section>
+
 <section id="about">
 <h2>✧ أهلاً بك في عالمي</h2>
-<p>مكان خاص يجمع الأشياء التي أحبها، بتصميم بنفسجي مستقبلي ولمسة من الخيال.</p>
-</section>
-<section id="gallery">
-<h2>✧ معرض الصور والفيديوهات</h2>
-<p>أضف رابط صورة أو فيديو عام حتى تعرضه هنا.</p>
-<form id="mediaForm">
-<input id="mediaTitle" placeholder="اسم الصورة أو الفيديو" required>
-<input id="mediaUrl" type="url" placeholder="رابط الصورة أو الفيديو" required>
-<button>＋ إضافة إلى المعرض</button>
-</form>
-<div class="grid" id="galleryItems"></div>
-</section>
-<section id="links">
-<h2>✧ بواباتي إلى العالم</h2>
-<form id="linkForm">
-<input id="linkTitle" placeholder="اسم الموقع أو الحساب" required>
-<input id="linkUrl" type="url" placeholder="رابط الموقع الكامل https://..." required>
-<button>＋ إضافة رابط</button>
-</form>
-<div class="grid" id="linkItems"></div>
+<div class="card">
+<p class="muted">FARJ_8 — مساحة شخصية تجمع الذكريات والروابط والخيال 💜</p>
+</div>
 </section>
 </main>
+
 <footer>✦ FARJ_8 · MY FANTASY UNIVERSE ✦</footer>
+</div>
+
 <script>
-const g=document.getElementById('galleryItems'),l=document.getElementById('linkItems');
-function valid(v){try{return ['http:','https:'].includes(new URL(v).protocol)}catch(e){return false}}
-document.getElementById('mediaForm').onsubmit=e=>{
-e.preventDefault();let t=document.getElementById('mediaTitle').value,u=document.getElementById('mediaUrl').value;
-if(!valid(u))return alert('تأكد من صحة الرابط');
-let d=document.createElement('div');d.className='item';
-if(/\.(mp4|webm|ogg)(\?.*)?$/i.test(u)){let v=document.createElement('video');v.src=u;v.controls=true;v.style.width='100%';d.append(v)}
-else{let im=document.createElement('img');im.src=u;im.alt=t;im.style.width='100%';d.append(im)}
-let p=document.createElement('p');p.textContent=t;d.append(p);g.prepend(d);e.target.reset()};
-document.getElementById('linkForm').onsubmit=e=>{
-e.preventDefault();let t=document.getElementById('linkTitle').value,u=document.getElementById('linkUrl').value;
-if(!valid(u))return alert('تأكد من صحة الرابط');
-let d=document.createElement('div');d.className='item';let a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener noreferrer';a.textContent='✧ '+t+' ↗';d.append(a);l.prepend(d);e.target.reset()};
+document.getElementById('downloadForm').addEventListener('submit',function(e){
+e.preventDefault();
+const input=document.getElementById('videoUrl').value.trim();
+const result=document.getElementById('result');
+let url;
+try{url=new URL(input)}catch(error){
+result.textContent='الرابط غير صحيح، حاول مرة ثانية.';
+return;
+}
+if(!['https:','http:'].includes(url.protocol)){
+result.textContent='استخدم رابط يبدأ بـ https://';
+return;
+}
+const host=url.hostname.toLowerCase();
+let platform='';
+if(host.includes('tiktok.com'))platform='TikTok';
+else if(host.includes('instagram.com'))platform='Instagram';
+else if(host.includes('snapchat.com'))platform='Snapchat';
+else{
+result.textContent='الرابط ليس من المنصات المدعومة.';
+return;
+}
+result.textContent='تم التعرف على '+platform+'. افتح الفيديو واستخدم خيار التنزيل الرسمي إذا كان متاحاً. لا يمكن ضمان تنزيل كل فيديو أو إزالة العلامة المائية.';
+window.open(url.href,'_blank','noopener,noreferrer');
+});
 </script>
 </body>
 </html>
-# farj_8
